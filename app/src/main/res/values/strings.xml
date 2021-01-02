@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email">e-mail</string>
+    <string name="password">password</string>
+    <string name="create_new_loging">create new login</string>
+    <string name="existing_loging">log with an existing account</string>
+    <string name="shoe_store_login">Shoe Store Login</string>
+    <string name="welcome_to_shoestore">Welcome to ShoeStore</string>
+    <string name="welcome">Welcome!</string>
+    <string name="this_is_the_welcome_fragment">This is the welcome fragment</string>
+    <string name="go_to_instructions">Go to instructions screen</string>
+    <string name="instructions">Instructions</string>
+    <string name="keep_on_clicking">Just keep on clicking</string>
+    <string name="you_will_reach_store">And you will reach the ShoeStore</string>
+    <string name="go_to_shoe_list_screen">Go to shoe list screen</string>
+    <string name="logout">Logout</string>
+    <string name="shoe_list">Shoe List</string>
+    <string name="button_to_go_to_detail_screen">button to go to detail screen</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="shoe_company">Shoe company</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="shoe_description">Shoe description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
