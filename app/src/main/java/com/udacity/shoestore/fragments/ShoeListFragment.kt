@@ -45,22 +45,11 @@ class ShoeListFragment : Fragment() {
     private fun addLayout(shoe: Shoe){
         val shoeItemLayout = layoutInflater.inflate(R.layout.item_shoe, binding.shoeListLinearLayout, false)
 
-//        val shoeName = toAdd.findViewById<TextView>(R.id.shoe_name_tv)
-//        val shoeDescription = toAdd.findViewById<TextView>(R.id.shoe_description_tv)
-//        val shoeSize = toAdd.findViewById<TextView>(R.id.shoe_size_tv)
-//        val shoeCompany = toAdd.findViewById<TextView>(R.id.shoe_company_tv)
-//
-//        shoeName.text = shoe.name ?: ""
-//        shoeCompany.text = shoe.company ?: ""
-//        shoeSize.text = shoe.size?.toString() ?: ""
-//        shoeDescription.text = shoe.description ?: ""
-
         shoeItemLayout.shoe_name_tv.text = shoe.name ?: ""
         shoeItemLayout.shoe_company_tv.text = shoe.company ?: ""
         shoeItemLayout.shoe_size_tv.text = shoe.size?.toString() ?: ""
         shoeItemLayout.shoe_description_tv.text = shoe.description ?: ""
         binding.shoeListLinearLayout.addView(shoeItemLayout)
-
     }
 
 }

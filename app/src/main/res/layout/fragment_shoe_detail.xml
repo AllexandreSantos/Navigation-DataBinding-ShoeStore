@@ -5,8 +5,12 @@
 
     <data>
         <variable
-            name="shoeDetail"
+            name="shoeDetailFragment"
             type="com.udacity.shoestore.fragments.ShoeDetailFragment" />
+
+        <variable
+            name="shoeObject"
+            type="com.udacity.shoestore.models.Shoe" />
     </data>
 
     <ScrollView
@@ -34,7 +38,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/shoe_name_edit_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:text="@={shoeObject.name}"/>
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -54,7 +59,8 @@
                     android:id="@+id/shoe_size_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="numberDecimal" />
+                    android:inputType="numberDecimal"
+                    android:text="@={shoeObject.size}"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -72,7 +78,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/shoe_company_edit_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:text="@={shoeObject.company}"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -90,7 +97,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/shoe_description_edit_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:text="@={shoeObject.description}"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
@@ -116,7 +124,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
                 android:text="@string/save"
-                android:onClick="@{() -> shoeDetail.saveShoe()}"
+                android:onClick="@{() -> shoeDetailFragment.saveShoe()}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

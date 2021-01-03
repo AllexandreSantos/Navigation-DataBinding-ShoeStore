@@ -20,6 +20,8 @@ class ShoeDetailFragment : Fragment() {
 
     private val viewModel by activityViewModels<ShoeViewModel>()
 
+    private val shoe = Shoe()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
@@ -36,29 +38,15 @@ class ShoeDetailFragment : Fragment() {
             view.findNavController().navigate(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
         }
 
-        binding.shoeDetail = this
-
-//        binding.saveButton.setOnClickListener { view: View ->
-//            view.findNavController()
-//                .navigate(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
-//        }
+        binding.shoeDetailFragment = this
+        binding.shoeObject = shoe
 
         // Inflate the layout for this fragment
         return binding.root
     }
 
     fun saveShoe(){
-
-        val shoe = Shoe()
-
-        shoe.name = binding.shoeNameEditText.text?.toString()
-        shoe.company = binding.shoeCompanyEditText.text?.toString()
-        shoe.description = binding.shoeDescriptionEditText.text?.toString()
-        if (!binding.shoeSizeEditText.text?.toString().isNullOrEmpty()){
-            shoe.size = binding.shoeSizeEditText.text?.toString()?.toDouble()
-        }
         viewModel.addShoe(shoe)
-
         navigate()
     }
 
@@ -66,7 +54,6 @@ class ShoeDetailFragment : Fragment() {
         view?.findNavController()
             ?.navigate(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
     }
-
 
     override fun onPrepareOptionsMenu(menu: Menu) {
         super.onPrepareOptionsMenu(menu)
