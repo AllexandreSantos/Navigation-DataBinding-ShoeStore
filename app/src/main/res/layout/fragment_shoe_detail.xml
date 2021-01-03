@@ -6,11 +6,11 @@
     <data>
         <variable
             name="shoeDetailFragment"
-            type="com.udacity.shoestore.fragments.ShoeDetailFragment" />
+            type="com.allexandresantos.shoestore.fragments.ShoeDetailFragment" />
 
         <variable
             name="shoeObject"
-            type="com.udacity.shoestore.models.Shoe" />
+            type="com.allexandresantos.shoestore.models.Shoe" />
     </data>
 
     <ScrollView

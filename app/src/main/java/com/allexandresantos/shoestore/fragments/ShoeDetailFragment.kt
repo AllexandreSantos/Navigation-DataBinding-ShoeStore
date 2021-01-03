@@ -1,18 +1,15 @@
-package com.udacity.shoestore.fragments
+package com.allexandresantos.shoestore.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.NavigationUI
-import com.udacity.shoestore.R
-import com.udacity.shoestore.ShoeViewModel
-import com.udacity.shoestore.databinding.FragmentShoeDetailBinding
-import com.udacity.shoestore.models.Shoe
+import com.allexandresantos.shoestore.R
+import com.allexandresantos.shoestore.ShoeViewModel
+import com.allexandresantos.shoestore.databinding.FragmentShoeDetailBinding
+import com.allexandresantos.shoestore.models.Shoe
 
 class ShoeDetailFragment : Fragment() {
 

@@ -1,10 +1,9 @@
-package com.udacity.shoestore
+package com.allexandresantos.shoestore
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.udacity.shoestore.models.Shoe
+import com.allexandresantos.shoestore.models.Shoe
 
 class ShoeViewModel: ViewModel() {
 
