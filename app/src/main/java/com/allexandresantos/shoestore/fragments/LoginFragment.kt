@@ -22,10 +22,8 @@ class LoginFragment: Fragment(){
         val binding: FragmentLoginBinding = DataBindingUtil.inflate(inflater,
             R.layout.fragment_login, container, false)
 
-        //TODO: What is the difference between using binding.existingLoginButton (look the next TODO)
         binding.existingLoginButton.setOnClickListener { view:View->
             view.findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment()) }
-        //TODO and this, not using binding:
         binding.newLoginButton.setOnClickListener {view:View->
             view.findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())  }
 
