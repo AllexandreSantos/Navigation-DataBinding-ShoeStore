@@ -1,10 +1,13 @@
-# ShoeStore-Udacity-Project
+# ShoeStore-Udacity-Project1
  Simple Android Project just to demonstrate concepts envolving Nagivation and Two-way Data Binding (mostly through EditTexts).
- Completing this project is one of the requirements to graduate from the Udacity Kotlin Developer Nanodegree
+ Completing this project using specific components is one of the requirements to graduate from the Udacity Kotlin Developer Nanodegree.
  
  ## Built With
 * [Navigation](https://developer.android.com/guide/navigation) - Navigation between different screens is done using Navigation Component
 * [Two-way data binding](https://developer.android.com/topic/libraries/data-binding/two-way) - All the input information in the EditTexts are passed using two-way data binding
+
+##Screenshots
+[teste](https://github.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/blob/main/images/navigation.png)
 
 ## Getting Started
 Clone or download the project
