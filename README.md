@@ -6,7 +6,10 @@
 * [Navigation](https://developer.android.com/guide/navigation) - Navigation between different screens is done using Navigation Component
 * [Two-way data binding](https://developer.android.com/topic/libraries/data-binding/two-way) - All the input information in the EditTexts are passed using two-way data binding
 
-##Screenshots
+## Screenshots
+![image](https://raw.githubusercontent.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/main/images/screen%201.jpeg)
+![image](https://raw.githubusercontent.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/main/images/screen%203.jpeg)
+![image](https://raw.githubusercontent.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/main/images/screen%202.jpeg)
 ![image](https://raw.githubusercontent.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/main/images/navigation.png)
 
 ## Getting Started
