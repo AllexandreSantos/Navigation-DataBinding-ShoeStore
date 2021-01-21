@@ -7,7 +7,7 @@
 * [Two-way data binding](https://developer.android.com/topic/libraries/data-binding/two-way) - All the input information in the EditTexts are passed using two-way data binding
 
 ##Screenshots
-* [Project navigation](https://github.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/blob/images/navigation.jpg?raw=true)
+![Project navigation](https://github.com/AllexandreSantos/Navigation-DataBinding-ShoeStore/images/navigation.png?raw=true)
 
 ## Getting Started
 Clone or download the project
